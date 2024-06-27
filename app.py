@@ -27,7 +27,7 @@ def main():
     st.write("Generate questions from your text using a pretrained NLP model.")
     
     context = st.text_area("Enter your text here:")
-    num_questions = st.number_input("Number of questions to generate:", min_value=1, value=5)
+    num_questions = st.number_input("Number of questions to generate:", min_value=1, value=10)  # Increase value for more questions
 
     if st.button("Generate Questions"):
         with st.spinner('Generating questions...'):
@@ -38,16 +38,24 @@ def main():
                 st.warning("No questions generated. Please try with a different text.")
                 return
 
+            # Remove duplicates by converting list to set and back to list
+            unique_questions = list(set(questions))
+
+            # Ensure we have enough unique questions
+            if len(unique_questions) < num_questions:
+                st.warning(f"Only {len(unique_questions)} unique questions generated, instead of {num_questions}.")
+                return
+
             os.makedirs('Questions_docx', exist_ok=True)
             os.makedirs('Questions_pdf', exist_ok=True)
             
-            doc_filename = save_to_docx(questions, 'Questions_docx/questions_generated.docx')
-            pdf_filename = save_to_pdf(questions, 'Questions_pdf/questions_generated.pdf')
+            doc_filename = save_to_docx(unique_questions[:num_questions], 'Questions_docx/questions_generated.docx')
+            pdf_filename = save_to_pdf(unique_questions[:num_questions], 'Questions_pdf/questions_generated.pdf')
 
             st.success("Questions generated successfully!")
             
             st.write("### Questions")
-            for i, question in enumerate(questions, 1):
+            for i, question in enumerate(unique_questions[:num_questions], 1):
                 st.write(f"Q{i}: {question}")
 
             st.write("### Download Links")
