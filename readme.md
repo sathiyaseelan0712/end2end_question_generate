@@ -2,7 +2,7 @@
 
 The **Question Paper Generator** is an innovative tool designed to automate the process of creating question papers from a given paragraph of text. Utilizing state-of-the-art pretrained models, the tool performs CPU inference to generate relevant and meaningful questions. This project aims to assist educators, content creators, and students by simplifying the task of question paper preparation.
 
-![Question Paper Generator](path-to-your-image.png)
+![Question Paper Generator](CPU.png)
 
 ## Features
 
@@ -19,6 +19,10 @@ Ensure you have the following installed:
 
 - Python 3.x
 - pip (Python package installer)
+- Streamlite
+- Torch
+- Transformers
+- ReportLab
 
 ### Installation
 
@@ -61,20 +65,26 @@ Here's a quick example to get you started:
 1. **Input Text:**
 
     ```
-    The process of photosynthesis is used by plants and other organisms to convert light energy into chemical energy that can later be released to fuel the organisms' activities. This chemical energy is stored in carbohydrate molecules, such as sugars, which are synthesized from carbon dioxide and water.
+    Machine learning is programming computers to optimize a performance criterion using example
+data or past experience. We have a model defined up to some parameters, and learning is the
+execution of a computer program to optimize the parameters of the model using the training data or
+past experience. The model may be predictive to make predictions in the future, or descriptive to gain
+knowledge from data, or both.
+Arthur Samuel, an early American leader in the field of computer gaming and artificial intelligence,
+coined the term “Machine Learning” in 1959 while at IBM. He defined machine learning as “the field of
+study that gives computers the ability to learn without being explicitly programmed.” However, there is
+no universally accepted definition for machine learning. Different authors define the term differently.
+
     ```
 
 2. **Generated Questions:**
 
-    - **MCQ**: What is the process used by plants to convert light energy into chemical energy?
-        - a) Respiration
-        - b) Photosynthesis
-        - c) Digestion
-        - d) Fermentation
-
-    - **Short Answer**: What are the molecules synthesized from carbon dioxide and water during photosynthesis?
-    
-    - **Descriptive**: Explain the process of photosynthesis and its significance to living organisms.
+    - **Questions**:Q1: What is programming computers to optimize a performance criterion using example data?
+Q2: Who coined the term "Machine Learning" in 1959 while working at IBM?
+Q3: What is learning the execution of a computer program to optimize the parameters of the model usQ4: Who coined the term "Machine Learning" in 1959 while at IBM?
+Q5: What is the execution of a computer program to optimize the parameters of the model using the trQ6: What is the execution of a computer program to optimize the parameters of the model using the trQ7: When was the term Machine Learning coined?
+Q8: Who was an early American leader in the field of computer gaming and artificial intelligence?
+Q9: What is programming computers to optimize a performance criterion using example data or past eQ10: When did Arthur Samuel coin the term Machine Learning?
 
 ## Contributing
 
