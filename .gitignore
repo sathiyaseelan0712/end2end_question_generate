@@ -1,2 +1,3 @@
-/Questions_pdf/
-/Questions_docx/
+./Questions_pdf
+./Questions_docx
+./__pycache__
