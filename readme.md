@@ -85,11 +85,6 @@ Here's a quick example to get you started:
     - **Q5**: Who was an early American leader in the field of computer gaming and artificial intelligence?
     - **Q6**: What is programming computers to optimize a performance criterion using example data or past experience?
 
-## Contributing
-
-We welcome contributions! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
-
-
 ## Acknowledgments
 
 - Thanks to the open-source community for the tools and models that make this project possible.
