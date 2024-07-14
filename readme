@@ -1,2 +1,44 @@
 pip install -r requirements.txt
 streamlit run app.py
+
+
+The Question Paper Generator is an innovative tool designed to automate the process of creating question papers from a given paragraph of text. Utilizing state-of-the-art pretrained models, the tool performs CPU inference to generate relevant and meaningful questions. This project aims to assist educators, content creators, and students by simplifying the task of question paper preparation.
+
+
+The Question Paper Generator takes a paragraph of text as input and generates a variety of questions based on the content. It supports the creation of different types of questions, including multiple-choice questions (MCQs), short answer questions, and descriptive questions. Users can then download the generated questions in either PDF or Word document format for easy distribution and editing.
+
+
+This project is useful for several reasons
+
+Time-Saving-It significantly reduces the time required to create question papers, allowing educators and content creators to focus more on teaching and content development.
+Consistency and Quality-The tool ensures consistent and high-quality questions by leveraging advanced NLP models.
+Versatility- It can be used across various subjects and content types, making it a versatile tool for different educational contexts.
+Convenience- With easy download options in PDF and Word formats, it provides a convenient way to distribute and customize question papers.
+
+How Users Can Get Started with the Project
+To get started with the Question Paper Generator, follow these steps:
+
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/question-paper-generator.git
+cd question-paper-generator
+Install dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
+Run the application:
+
+bash
+Copy code
+python app.py
+
+Use the tool:
+
+Launch the application.
+Input the desired paragraph of text.
+Click on the "Generate Questions" button.
+Preview the generated questions.
+Download the questions in PDF or Word format.
