@@ -19,7 +19,7 @@ Ensure you have the following installed:
 
 - Python 3.x
 - pip (Python package installer)
-- Streamlite
+- Streamlit
 - Torch
 - Transformers
 - ReportLab
@@ -66,33 +66,29 @@ Here's a quick example to get you started:
 
     ```
     Machine learning is programming computers to optimize a performance criterion using example
-data or past experience. We have a model defined up to some parameters, and learning is the
-execution of a computer program to optimize the parameters of the model using the training data or
-past experience. The model may be predictive to make predictions in the future, or descriptive to gain
-knowledge from data, or both.
-Arthur Samuel, an early American leader in the field of computer gaming and artificial intelligence,
-coined the term “Machine Learning” in 1959 while at IBM. He defined machine learning as “the field of
-study that gives computers the ability to learn without being explicitly programmed.” However, there is
-no universally accepted definition for machine learning. Different authors define the term differently.
-
+    data or past experience. We have a model defined up to some parameters, and learning is the
+    execution of a computer program to optimize the parameters of the model using the training data or
+    past experience. The model may be predictive to make predictions in the future, or descriptive to gain
+    knowledge from data, or both.
+    Arthur Samuel, an early American leader in the field of computer gaming and artificial intelligence,
+    coined the term “Machine Learning” in 1959 while at IBM. He defined machine learning as “the field of
+    study that gives computers the ability to learn without being explicitly programmed.” However, there is
+    no universally accepted definition for machine learning. Different authors define the term differently.
     ```
 
 2. **Generated Questions:**
 
-    - **Questions**:Q1: What is programming computers to optimize a performance criterion using example data?
-Q2: Who coined the term "Machine Learning" in 1959 while working at IBM?
-Q3: What is learning the execution of a computer program to optimize the parameters of the model usQ4: Who coined the term "Machine Learning" in 1959 while at IBM?
-Q5: What is the execution of a computer program to optimize the parameters of the model using the trQ6: What is the execution of a computer program to optimize the parameters of the model using the trQ7: When was the term Machine Learning coined?
-Q8: Who was an early American leader in the field of computer gaming and artificial intelligence?
-Q9: What is programming computers to optimize a performance criterion using example data or past eQ10: When did Arthur Samuel coin the term Machine Learning?
+    - **Q1**: What is programming computers to optimize a performance criterion using example data?
+    - **Q2**: Who coined the term "Machine Learning" in 1959 while working at IBM?
+    - **Q3**: What is learning the execution of a computer program to optimize the parameters of the model using training data?
+    - **Q4**: When was the term "Machine Learning" coined?
+    - **Q5**: Who was an early American leader in the field of computer gaming and artificial intelligence?
+    - **Q6**: What is programming computers to optimize a performance criterion using example data or past experience?
 
 ## Contributing
 
 We welcome contributions! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
 
